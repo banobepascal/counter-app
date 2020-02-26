@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import uuid from "uuid";
 
 class Counter extends Component {
   state = {
@@ -22,17 +21,6 @@ class Counter extends Component {
     this.setState({ count: this.state.count + 1 });
   };
 
-  renderTags = () => {
-    if (this.state.tags.length === 0) return <p>There are no tags!</p>;
-    return (
-      <ul>
-        {this.state.tags.map(tag => (
-          <li key={uuid.v4()}>{tag}</li>
-        ))}
-      </ul>
-    );
-  };
-
   render() {
     return (
       <div>
@@ -43,7 +31,6 @@ class Counter extends Component {
         >
           increment
         </button>
-        {this.renderTags()}
       </div>
     );
   }

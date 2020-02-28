@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,3 +72,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # React-TodoApp
 this is a Todo App created with React.js 
 >>>>>>> 3952e1aa6afcdef3c93e25f8db377a9be2459671
+=======
+# counter-app
+A counter app created in react for learning purposes
+>>>>>>> bf84dacc24e613988ac892f3f5402b04ebf2ceb2
